@@ -1,4 +1,4 @@
-//creating Object for person1
+//creating Object for person1 
 var Amitabh={ fname:"Srivani",
 lname:"gunti",
 age:21,
