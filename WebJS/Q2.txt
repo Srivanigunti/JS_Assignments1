@@ -1,0 +1,7 @@
+BOM objects
+
+Navigator
+History
+Window
+Location
+Screen

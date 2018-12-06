@@ -1,0 +1,15 @@
+"window" objects
+
+1. window.open():
+The open() method opens a new browser window.
+Tip: Use the close() method to close the window.
+
+2. window.close():
+The close() method closes the current window.
+Tip: This method is often used together with the open() method.
+
+3. window.moveTo():
+Moves a window to the specified position
+
+4. window.resizeTo():
+The resizeTo() method resizes a window to the specified width and height.

@@ -1,0 +1,23 @@
+DOM objects
+
+1. document.getElementById():
+The document.getElementById() method returns the element of specified id.
+This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
+Returns null if no elements with the specified ID exists.
+An ID should be unique within a page. 
+However, if more than one element with the specified ID exists, the getElementById() method returns the first element in the source code.
+
+2. document.write():
+The write() method writes HTML expressions or JavaScript code to a document.
+The write() method is mostly used for testing: If it is used after an HTML document is fully loaded, it will delete all existing HTML.
+Note: When this method is not used for testing, it is often used to write some text to an output stream opened by the document.open() method.
+Tip: The document.writeln() method is similar to write(), only it adds a newline character after each statement.
+
+3. document.close():
+The close() method closes the output stream previously opened with the document.open() method, and displays the collected data in this process.
+
+4. document.open():
+The open() method opens an output stream to collect the output from any document.write() or document.writeln() methods.
+Once all the writes are performed, the document.close() method causes any output written to the output stream to be displayed.
+Note: If a document already exists in the target, it will be cleared.
+Note: Do not confuse this method with the window.open() method, which opens a new browser window.
